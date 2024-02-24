@@ -57,9 +57,9 @@ export default async function Order({ params: { id } }) {
         <p>{`Ordered On: ${formatDateTime(order.createdAt)}`}</p>
         <p className={classes.total}>
           {'Total: '}
-          {new Intl.NumberFormat('en-US', {
+          {new Intl.NumberFormat('en-GB', {
             style: 'currency',
-            currency: 'usd',
+            currency: 'gbp',
           }).format(order.total / 100)}
         </p>
       </div>
