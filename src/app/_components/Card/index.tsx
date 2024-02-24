@@ -69,7 +69,7 @@ export const Card: React.FC<{
   return (
     <Link href={href} className={[classes.card, className].filter(Boolean).join(' ')}>
       <div className={classes.mediaWrapper}>
-        {!metaImage && <div className={classes.placeholder}>Image coming soon</div>}
+        {!metaImage && <div className={classes.placeholder}>No image</div>}
         {metaImage && typeof metaImage !== 'string' && (
           <Media imgClassName={classes.image} resource={metaImage} fill />
         )}
