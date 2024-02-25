@@ -411,9 +411,9 @@ export interface Order {
   createdAt: string;
 }
 export interface User {
-  address: string;
   id: string;
   name?: string | null;
+  address?: string | null;
   roles?: ('admin' | 'customer')[] | null;
   purchases?: (string | Product)[] | null;
   stripeCustomerID?: string | null;
@@ -528,6 +528,6 @@ export interface Footer {
 }
 
 
-declare module 'Payload' {
+declare module 'payload' {
   export interface GeneratedTypes extends Config {}
 }
