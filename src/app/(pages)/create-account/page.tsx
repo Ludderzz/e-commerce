@@ -23,10 +23,10 @@ export default async function CreateAccount() {
       <div className={classes.heroImg}>
         <Link href="/">
           <Image
-            src="/40.png"
+            src="/logo-black.svg"
             alt="logo"
-            width={350}
-            height={35}
+            width={250}
+            height={23}
             className={classes.logo}
           />
         </Link>

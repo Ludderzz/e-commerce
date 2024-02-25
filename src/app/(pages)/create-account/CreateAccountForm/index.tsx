@@ -76,8 +76,8 @@ const CreateAccountForm: React.FC = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={classes.form}>
       <p>
-        {`Sign up, Only if you dare!, `}
-        
+        {`Only if you dare!, `}
+
         {'.'}
       </p>
       <Message error={error} className={classes.message} />
@@ -129,4 +129,4 @@ const CreateAccountForm: React.FC = () => {
   )
 }
 
-export default CreateAccountForm;
+export default CreateAccountForm

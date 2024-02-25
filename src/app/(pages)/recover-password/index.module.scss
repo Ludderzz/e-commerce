@@ -11,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url('/assets/halloween-2837936_1920.png');
+    background-image: url('/assets/images/image-3.svg');
   }
 
   p {
@@ -25,7 +25,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('/assets/halloween-2837936_1920.png');
+  background-image: url('/assets/images/image-3.svg');
 
   @include mid-break {
     background: none;
@@ -68,7 +68,7 @@
 
   @include mid-break {
     backdrop-filter: blur(30px);
-    background-color: rgba(255, 255, 255, 0.228);
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   }
 
